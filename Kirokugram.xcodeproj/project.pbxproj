@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E954FA3B247DA716006B7D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA3A247DA716006B7D6D /* AppDelegate.swift */; };
+		E954FA3D247DA716006B7D6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA3C247DA716006B7D6D /* SceneDelegate.swift */; };
+		E954FA3F247DA716006B7D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA3E247DA716006B7D6D /* ViewController.swift */; };
+		E954FA42247DA716006B7D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954FA40247DA716006B7D6D /* Main.storyboard */; };
+		E954FA44247DA71B006B7D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E954FA43247DA71B006B7D6D /* Assets.xcassets */; };
+		E954FA47247DA71B006B7D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954FA45247DA71B006B7D6D /* LaunchScreen.storyboard */; };
+		E954FA52247DA71B006B7D6D /* KirokugramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA51247DA71B006B7D6D /* KirokugramTests.swift */; };
+		E954FA5D247DA71B006B7D6D /* KirokugramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA5C247DA71B006B7D6D /* KirokugramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E954FA4E247DA71B006B7D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E954FA2F247DA716006B7D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E954FA36247DA716006B7D6D;
+			remoteInfo = Kirokugram;
+		};
+		E954FA59247DA71B006B7D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E954FA2F247DA716006B7D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E954FA36247DA716006B7D6D;
+			remoteInfo = Kirokugram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E954FA37247DA716006B7D6D /* Kirokugram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kirokugram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E954FA3A247DA716006B7D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E954FA3C247DA716006B7D6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E954FA3E247DA716006B7D6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E954FA41247DA716006B7D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E954FA43247DA71B006B7D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E954FA46247DA71B006B7D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E954FA48247DA71B006B7D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E954FA4D247DA71B006B7D6D /* KirokugramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KirokugramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E954FA51247DA71B006B7D6D /* KirokugramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KirokugramTests.swift; sourceTree = "<group>"; };
+		E954FA53247DA71B006B7D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E954FA58247DA71B006B7D6D /* KirokugramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KirokugramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E954FA5C247DA71B006B7D6D /* KirokugramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KirokugramUITests.swift; sourceTree = "<group>"; };
+		E954FA5E247DA71B006B7D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E954FA34247DA716006B7D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E954FA4A247DA71B006B7D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E954FA55247DA71B006B7D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E954FA2E247DA716006B7D6D = {
+			isa = PBXGroup;
+			children = (
+				E954FA39247DA716006B7D6D /* Kirokugram */,
+				E954FA50247DA71B006B7D6D /* KirokugramTests */,
+				E954FA5B247DA71B006B7D6D /* KirokugramUITests */,
+				E954FA38247DA716006B7D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E954FA38247DA716006B7D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E954FA37247DA716006B7D6D /* Kirokugram.app */,
+				E954FA4D247DA71B006B7D6D /* KirokugramTests.xctest */,
+				E954FA58247DA71B006B7D6D /* KirokugramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E954FA39247DA716006B7D6D /* Kirokugram */ = {
+			isa = PBXGroup;
+			children = (
+				E954FA3A247DA716006B7D6D /* AppDelegate.swift */,
+				E954FA3C247DA716006B7D6D /* SceneDelegate.swift */,
+				E954FA3E247DA716006B7D6D /* ViewController.swift */,
+				E954FA40247DA716006B7D6D /* Main.storyboard */,
+				E954FA43247DA71B006B7D6D /* Assets.xcassets */,
+				E954FA45247DA71B006B7D6D /* LaunchScreen.storyboard */,
+				E954FA48247DA71B006B7D6D /* Info.plist */,
+			);
+			path = Kirokugram;
+			sourceTree = "<group>";
+		};
+		E954FA50247DA71B006B7D6D /* KirokugramTests */ = {
+			isa = PBXGroup;
+			children = (
+				E954FA51247DA71B006B7D6D /* KirokugramTests.swift */,
+				E954FA53247DA71B006B7D6D /* Info.plist */,
+			);
+			path = KirokugramTests;
+			sourceTree = "<group>";
+		};
+		E954FA5B247DA71B006B7D6D /* KirokugramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E954FA5C247DA71B006B7D6D /* KirokugramUITests.swift */,
+				E954FA5E247DA71B006B7D6D /* Info.plist */,
+			);
+			path = KirokugramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E954FA36247DA716006B7D6D /* Kirokugram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E954FA61247DA71B006B7D6D /* Build configuration list for PBXNativeTarget "Kirokugram" */;
+			buildPhases = (
+				E954FA33247DA716006B7D6D /* Sources */,
+				E954FA34247DA716006B7D6D /* Frameworks */,
+				E954FA35247DA716006B7D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kirokugram;
+			productName = Kirokugram;
+			productReference = E954FA37247DA716006B7D6D /* Kirokugram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E954FA4C247DA71B006B7D6D /* KirokugramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E954FA64247DA71B006B7D6D /* Build configuration list for PBXNativeTarget "KirokugramTests" */;
+			buildPhases = (
+				E954FA49247DA71B006B7D6D /* Sources */,
+				E954FA4A247DA71B006B7D6D /* Frameworks */,
+				E954FA4B247DA71B006B7D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E954FA4F247DA71B006B7D6D /* PBXTargetDependency */,
+			);
+			name = KirokugramTests;
+			productName = KirokugramTests;
+			productReference = E954FA4D247DA71B006B7D6D /* KirokugramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E954FA57247DA71B006B7D6D /* KirokugramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E954FA67247DA71B006B7D6D /* Build configuration list for PBXNativeTarget "KirokugramUITests" */;
+			buildPhases = (
+				E954FA54247DA71B006B7D6D /* Sources */,
+				E954FA55247DA71B006B7D6D /* Frameworks */,
+				E954FA56247DA71B006B7D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E954FA5A247DA71B006B7D6D /* PBXTargetDependency */,
+			);
+			name = KirokugramUITests;
+			productName = KirokugramUITests;
+			productReference = E954FA58247DA71B006B7D6D /* KirokugramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E954FA2F247DA716006B7D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Fujita shu";
+				TargetAttributes = {
+					E954FA36247DA716006B7D6D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E954FA4C247DA71B006B7D6D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E954FA36247DA716006B7D6D;
+					};
+					E954FA57247DA71B006B7D6D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E954FA36247DA716006B7D6D;
+					};
+				};
+			};
+			buildConfigurationList = E954FA32247DA716006B7D6D /* Build configuration list for PBXProject "Kirokugram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E954FA2E247DA716006B7D6D;
+			productRefGroup = E954FA38247DA716006B7D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E954FA36247DA716006B7D6D /* Kirokugram */,
+				E954FA4C247DA71B006B7D6D /* KirokugramTests */,
+				E954FA57247DA71B006B7D6D /* KirokugramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E954FA35247DA716006B7D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E954FA47247DA71B006B7D6D /* LaunchScreen.storyboard in Resources */,
+				E954FA44247DA71B006B7D6D /* Assets.xcassets in Resources */,
+				E954FA42247DA716006B7D6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E954FA4B247DA71B006B7D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E954FA56247DA71B006B7D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E954FA33247DA716006B7D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E954FA3F247DA716006B7D6D /* ViewController.swift in Sources */,
+				E954FA3B247DA716006B7D6D /* AppDelegate.swift in Sources */,
+				E954FA3D247DA716006B7D6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E954FA49247DA71B006B7D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E954FA52247DA71B006B7D6D /* KirokugramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E954FA54247DA71B006B7D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E954FA5D247DA71B006B7D6D /* KirokugramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E954FA4F247DA71B006B7D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E954FA36247DA716006B7D6D /* Kirokugram */;
+			targetProxy = E954FA4E247DA71B006B7D6D /* PBXContainerItemProxy */;
+		};
+		E954FA5A247DA71B006B7D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E954FA36247DA716006B7D6D /* Kirokugram */;
+			targetProxy = E954FA59247DA71B006B7D6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E954FA40247DA716006B7D6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E954FA41247DA716006B7D6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E954FA45247DA71B006B7D6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E954FA46247DA71B006B7D6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E954FA5F247DA71B006B7D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E954FA60247DA71B006B7D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E954FA62247DA71B006B7D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCSZM9866X;
+				INFOPLIST_FILE = Kirokugram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.Kirokugram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E954FA63247DA71B006B7D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCSZM9866X;
+				INFOPLIST_FILE = Kirokugram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.Kirokugram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E954FA65247DA71B006B7D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCSZM9866X;
+				INFOPLIST_FILE = KirokugramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.KirokugramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kirokugram.app/Kirokugram";
+			};
+			name = Debug;
+		};
+		E954FA66247DA71B006B7D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCSZM9866X;
+				INFOPLIST_FILE = KirokugramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.KirokugramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kirokugram.app/Kirokugram";
+			};
+			name = Release;
+		};
+		E954FA68247DA71B006B7D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCSZM9866X;
+				INFOPLIST_FILE = KirokugramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.KirokugramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kirokugram;
+			};
+			name = Debug;
+		};
+		E954FA69247DA71B006B7D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCSZM9866X;
+				INFOPLIST_FILE = KirokugramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.KirokugramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kirokugram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E954FA32247DA716006B7D6D /* Build configuration list for PBXProject "Kirokugram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E954FA5F247DA71B006B7D6D /* Debug */,
+				E954FA60247DA71B006B7D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E954FA61247DA71B006B7D6D /* Build configuration list for PBXNativeTarget "Kirokugram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E954FA62247DA71B006B7D6D /* Debug */,
+				E954FA63247DA71B006B7D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E954FA64247DA71B006B7D6D /* Build configuration list for PBXNativeTarget "KirokugramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E954FA65247DA71B006B7D6D /* Debug */,
+				E954FA66247DA71B006B7D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E954FA67247DA71B006B7D6D /* Build configuration list for PBXNativeTarget "KirokugramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E954FA68247DA71B006B7D6D /* Debug */,
+				E954FA69247DA71B006B7D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E954FA2F247DA716006B7D6D /* Project object */;
+}
