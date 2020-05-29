@@ -15,6 +15,16 @@
 		E954FA47247DA71B006B7D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954FA45247DA71B006B7D6D /* LaunchScreen.storyboard */; };
 		E954FA52247DA71B006B7D6D /* KirokugramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA51247DA71B006B7D6D /* KirokugramTests.swift */; };
 		E954FA5D247DA71B006B7D6D /* KirokugramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA5C247DA71B006B7D6D /* KirokugramUITests.swift */; };
+		E954FA75248146D9006B7D6D /* icon_140.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA6B248146D8006B7D6D /* icon_140.pdf */; };
+		E954FA76248146D9006B7D6D /* icon_191.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA6C248146D8006B7D6D /* icon_191.pdf */; };
+		E954FA77248146D9006B7D6D /* icon_184.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA6D248146D8006B7D6D /* icon_184.pdf */; };
+		E954FA78248146D9006B7D6D /* icon_187.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA6E248146D8006B7D6D /* icon_187.pdf */; };
+		E954FA79248146D9006B7D6D /* icon_051.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA6F248146D8006B7D6D /* icon_051.pdf */; };
+		E954FA7A248146D9006B7D6D /* icon_086.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA70248146D8006B7D6D /* icon_086.pdf */; };
+		E954FA7B248146D9006B7D6D /* icon_245.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA71248146D8006B7D6D /* icon_245.pdf */; };
+		E954FA7C248146D9006B7D6D /* icon_127.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA72248146D8006B7D6D /* icon_127.pdf */; };
+		E954FA7D248146D9006B7D6D /* icon_199.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA73248146D8006B7D6D /* icon_199.pdf */; };
+		E954FA7E248146D9006B7D6D /* icon_166.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E954FA74248146D8006B7D6D /* icon_166.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		E954FA58247DA71B006B7D6D /* KirokugramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KirokugramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E954FA5C247DA71B006B7D6D /* KirokugramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KirokugramUITests.swift; sourceTree = "<group>"; };
 		E954FA5E247DA71B006B7D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E954FA6B248146D8006B7D6D /* icon_140.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_140.pdf; sourceTree = "<group>"; };
+		E954FA6C248146D8006B7D6D /* icon_191.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_191.pdf; sourceTree = "<group>"; };
+		E954FA6D248146D8006B7D6D /* icon_184.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_184.pdf; sourceTree = "<group>"; };
+		E954FA6E248146D8006B7D6D /* icon_187.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_187.pdf; sourceTree = "<group>"; };
+		E954FA6F248146D8006B7D6D /* icon_051.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_051.pdf; sourceTree = "<group>"; };
+		E954FA70248146D8006B7D6D /* icon_086.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_086.pdf; sourceTree = "<group>"; };
+		E954FA71248146D8006B7D6D /* icon_245.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_245.pdf; sourceTree = "<group>"; };
+		E954FA72248146D8006B7D6D /* icon_127.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_127.pdf; sourceTree = "<group>"; };
+		E954FA73248146D8006B7D6D /* icon_199.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_199.pdf; sourceTree = "<group>"; };
+		E954FA74248146D8006B7D6D /* icon_166.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_166.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		E954FA39247DA716006B7D6D /* Kirokugram */ = {
 			isa = PBXGroup;
 			children = (
+				E954FA6A248146D8006B7D6D /* 使いそうicon */,
 				E954FA3A247DA716006B7D6D /* AppDelegate.swift */,
 				E954FA3C247DA716006B7D6D /* SceneDelegate.swift */,
 				E954FA3E247DA716006B7D6D /* ViewController.swift */,
@@ -126,6 +147,23 @@
 				E954FA5E247DA71B006B7D6D /* Info.plist */,
 			);
 			path = KirokugramUITests;
+			sourceTree = "<group>";
+		};
+		E954FA6A248146D8006B7D6D /* 使いそうicon */ = {
+			isa = PBXGroup;
+			children = (
+				E954FA6B248146D8006B7D6D /* icon_140.pdf */,
+				E954FA6C248146D8006B7D6D /* icon_191.pdf */,
+				E954FA6D248146D8006B7D6D /* icon_184.pdf */,
+				E954FA6E248146D8006B7D6D /* icon_187.pdf */,
+				E954FA6F248146D8006B7D6D /* icon_051.pdf */,
+				E954FA70248146D8006B7D6D /* icon_086.pdf */,
+				E954FA71248146D8006B7D6D /* icon_245.pdf */,
+				E954FA72248146D8006B7D6D /* icon_127.pdf */,
+				E954FA73248146D8006B7D6D /* icon_199.pdf */,
+				E954FA74248146D8006B7D6D /* icon_166.pdf */,
+			);
+			path = "使いそうicon";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +271,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E954FA47247DA71B006B7D6D /* LaunchScreen.storyboard in Resources */,
+				E954FA77248146D9006B7D6D /* icon_184.pdf in Resources */,
+				E954FA79248146D9006B7D6D /* icon_051.pdf in Resources */,
+				E954FA78248146D9006B7D6D /* icon_187.pdf in Resources */,
+				E954FA75248146D9006B7D6D /* icon_140.pdf in Resources */,
 				E954FA44247DA71B006B7D6D /* Assets.xcassets in Resources */,
 				E954FA42247DA716006B7D6D /* Main.storyboard in Resources */,
+				E954FA7D248146D9006B7D6D /* icon_199.pdf in Resources */,
+				E954FA7A248146D9006B7D6D /* icon_086.pdf in Resources */,
+				E954FA7C248146D9006B7D6D /* icon_127.pdf in Resources */,
+				E954FA7E248146D9006B7D6D /* icon_166.pdf in Resources */,
+				E954FA76248146D9006B7D6D /* icon_191.pdf in Resources */,
+				E954FA7B248146D9006B7D6D /* icon_245.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,17 +482,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CCSZM9866X;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = Kirokugram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.Kirokugram;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.kirokugram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L12ShuFujita-Distribution";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,17 +502,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CCSZM9866X;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = Kirokugram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.fujita.shu.Kirokugram;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.kirokugram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L12ShuFujita-Distribution";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
