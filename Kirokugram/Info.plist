@@ -43,6 +43,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>カメラを呼び出す</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>フォトリブラリに画像を保存</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>フォトライブラリを呼び出す</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

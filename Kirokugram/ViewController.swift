@@ -20,5 +20,5 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UITableView
+
 //viewControllerに機能を追加する
