@@ -13,6 +13,8 @@
 		E94C6C8B248AB41B0072487B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E94C6C8A248AB41B0072487B /* RealmSwift */; };
 		E94C6C8D248AB6AF0072487B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C6C8C248AB6AF0072487B /* Record.swift */; };
 		E94C6C93248B092C0072487B /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C6C92248B092C0072487B /* AddCategoryViewController.swift */; };
+		E94C6C95248B73B50072487B /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C6C94248B73B50072487B /* CategoryTableViewController.swift */; };
+		E94C6C99248B7C680072487B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C6C98248B7C680072487B /* HomeViewController.swift */; };
 		E954FA3B247DA716006B7D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA3A247DA716006B7D6D /* AppDelegate.swift */; };
 		E954FA3D247DA716006B7D6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA3C247DA716006B7D6D /* SceneDelegate.swift */; };
 		E954FA3F247DA716006B7D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA3E247DA716006B7D6D /* ViewController.swift */; };
@@ -23,8 +25,6 @@
 		E954FA5D247DA71B006B7D6D /* KirokugramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA5C247DA71B006B7D6D /* KirokugramUITests.swift */; };
 		E954FA802487FD1D006B7D6D /* KirokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA7F2487FD1D006B7D6D /* KirokuViewController.swift */; };
 		E954FA822487FE05006B7D6D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA812487FE05006B7D6D /* SettingViewController.swift */; };
-		E954FA842487FEFB006B7D6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA832487FEFB006B7D6D /* HomeViewController.swift */; };
-		E954FA862487FF54006B7D6D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA852487FF54006B7D6D /* CategoryViewController.swift */; };
 		E954FA882488009B006B7D6D /* TemaColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA872488009B006B7D6D /* TemaColorTableViewController.swift */; };
 		E954FA8A248800B2006B7D6D /* FontTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA89248800B2006B7D6D /* FontTableViewController.swift */; };
 		E954FA8C248803A8006B7D6D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954FA8B248803A8006B7D6D /* DetailsViewController.swift */; };
@@ -55,6 +55,8 @@
 		E94C6C85248A7B490072487B /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		E94C6C8C248AB6AF0072487B /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		E94C6C92248B092C0072487B /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		E94C6C94248B73B50072487B /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		E94C6C98248B7C680072487B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E954FA37247DA716006B7D6D /* Kirokugram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kirokugram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E954FA3A247DA716006B7D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E954FA3C247DA716006B7D6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,8 +73,6 @@
 		E954FA5E247DA71B006B7D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E954FA7F2487FD1D006B7D6D /* KirokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KirokuViewController.swift; sourceTree = "<group>"; };
 		E954FA812487FE05006B7D6D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		E954FA832487FEFB006B7D6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E954FA852487FF54006B7D6D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		E954FA872488009B006B7D6D /* TemaColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaColorTableViewController.swift; sourceTree = "<group>"; };
 		E954FA89248800B2006B7D6D /* FontTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTableViewController.swift; sourceTree = "<group>"; };
 		E954FA8B248803A8006B7D6D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -157,9 +157,9 @@
 				E954FA45247DA71B006B7D6D /* LaunchScreen.storyboard */,
 				E954FA48247DA71B006B7D6D /* Info.plist */,
 				E954FA7F2487FD1D006B7D6D /* KirokuViewController.swift */,
-				E954FA832487FEFB006B7D6D /* HomeViewController.swift */,
+				E94C6C98248B7C680072487B /* HomeViewController.swift */,
 				E94C6C83248A7B110072487B /* HomeCollectionViewCell.swift */,
-				E954FA852487FF54006B7D6D /* CategoryViewController.swift */,
+				E94C6C94248B73B50072487B /* CategoryTableViewController.swift */,
 				E94C6C85248A7B490072487B /* CategoryTableViewCell.swift */,
 				E94C6C92248B092C0072487B /* AddCategoryViewController.swift */,
 				E954FA8B248803A8006B7D6D /* DetailsViewController.swift */,
@@ -373,14 +373,14 @@
 			files = (
 				E954FA822487FE05006B7D6D /* SettingViewController.swift in Sources */,
 				E954FA3F247DA716006B7D6D /* ViewController.swift in Sources */,
+				E94C6C95248B73B50072487B /* CategoryTableViewController.swift in Sources */,
 				E954FA882488009B006B7D6D /* TemaColorTableViewController.swift in Sources */,
-				E954FA862487FF54006B7D6D /* CategoryViewController.swift in Sources */,
+				E94C6C99248B7C680072487B /* HomeViewController.swift in Sources */,
 				E94C6C8D248AB6AF0072487B /* Record.swift in Sources */,
 				E954FA802487FD1D006B7D6D /* KirokuViewController.swift in Sources */,
 				E954FA3B247DA716006B7D6D /* AppDelegate.swift in Sources */,
 				E954FA8A248800B2006B7D6D /* FontTableViewController.swift in Sources */,
 				E954FA3D247DA716006B7D6D /* SceneDelegate.swift in Sources */,
-				E954FA842487FEFB006B7D6D /* HomeViewController.swift in Sources */,
 				E954FA8C248803A8006B7D6D /* DetailsViewController.swift in Sources */,
 				E94C6C93248B092C0072487B /* AddCategoryViewController.swift in Sources */,
 				E94C6C86248A7B490072487B /* CategoryTableViewCell.swift in Sources */,

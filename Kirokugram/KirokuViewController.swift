@@ -10,7 +10,7 @@ import UIKit
 import RealmSwift
 
 
-class KirokuViewController: UIViewController,UIPickerViewDelegate,UIImagePickerControllerDelegate {
+class KirokuViewController: UIViewController,UIPickerViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate{
     
     //写真表示
     @IBOutlet weak var photoImageView: UIImageView!
@@ -35,7 +35,6 @@ class KirokuViewController: UIViewController,UIPickerViewDelegate,UIImagePickerC
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
            //画像出力
            photoImageView.image = info[.originalImage]as? UIImage
-           originalImage = photoImageView.image
            self.dismiss(animated: true, completion: nil)
           
        }
@@ -47,7 +46,7 @@ class KirokuViewController: UIViewController,UIPickerViewDelegate,UIImagePickerC
     @IBOutlet var urlTextField: UITextField!
     @IBOutlet var memoTextView: UITextView!
     @IBOutlet var categoryPickerView: UIPickerView!
-    @IBOutlet weak var photoImageView: UIImageView!
+ 
 
 
     let realm = try! Realm()
@@ -84,8 +83,8 @@ class KirokuViewController: UIViewController,UIPickerViewDelegate,UIImagePickerC
                  label.text = dataList[row]
              }
        
-      //保存・キャンセル等
-      @IBAction func addRecord() {
+    //保存・キャンセル等
+    @IBAction func addRecord() {
         let newRecord = Record()
         newRecord.name = nameTextField.text!
         newRecord.place = placeTextField.text!
@@ -99,7 +98,7 @@ class KirokuViewController: UIViewController,UIPickerViewDelegate,UIImagePickerC
         }
         dismiss(animated: true, completion: nil)
     }
-        @IBAction func cancel() {
+    @IBAction func cancel() {
             dismiss(animated: true, completion: nil)
         }
       

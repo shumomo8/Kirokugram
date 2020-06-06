@@ -37,7 +37,11 @@ class AddCategoryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if saveDate.array(forKey: "WORD") != nil {
+                   categoryArray = saveDate.array(forKey: "WORD") as! [Dictionary<String, String>]
+                   
+              
+               }
         // Do any additional setup after loading the view.
     }
     

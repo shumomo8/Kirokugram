@@ -259,7 +259,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Save" id="XX3-1r-meU">
                                             <connections>
-                                                <action selector="addRecord" destination="Cco-WI-rba" id="oH3-2b-mkz"/>
+                                                <action selector="onTappedSaveButton" destination="Cco-WI-rba" id="u6e-T6-zUY"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -273,12 +273,18 @@
                                 <rect key="frame" x="153" y="280" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="photo" catalog="system"/>
+                                <connections>
+                                    <action selector="onTappedAlbumButton" destination="Cco-WI-rba" eventType="touchUpInside" id="PXc-Vp-MtZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyH-ch-VgW">
                                 <rect key="frame" x="51" y="279.5" width="42" height="30.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" backgroundImage="camera.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="onTappedCameraButton" destination="Cco-WI-rba" eventType="touchUpInside" id="iRY-rD-oWs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -381,46 +387,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wt-h3-0cj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1338" y="1411"/>
-        </scene>
-        <!--カテゴリ一覧-->
-        <scene sceneID="AQK-8I-kCu">
-            <objects>
-                <viewController id="46o-Jy-D6f" customClass="CategoryViewController" customModule="Kirokugram" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="740-94-Jez">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vAO-dY-3Hu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="VeV-Yu-W64" customClass="CategoryTableViewCell" customModule="Kirokugram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="70"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VeV-Yu-W64" id="EK9-Ip-QrR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="MPZ-qp-5EC"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="カテゴリ一覧" id="7Ax-fO-pOp">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" id="I6y-vY-PWY"/>
-                        <barButtonItem key="rightBarButtonItem" title="カテゴリ追加" image="plus" catalog="system" id="AE5-4e-2ud">
-                            <connections>
-                                <segue destination="bwO-Cl-ipn" kind="show" id="VwC-3u-Yex"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wcy-PU-hKB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2590" y="2128"/>
         </scene>
         <!--Add Category View Controller-->
         <scene sceneID="FqB-Qu-pab">
@@ -542,7 +508,8 @@
         <!--ホーム-->
         <scene sceneID="RzW-A7-qhS">
             <objects>
-                <viewController title="ホーム" id="fEP-gN-INq" customClass="HomeViewController" customModule="Kirokugram" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Md-k3-jUx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController title="ホーム" id="fEP-gN-INq" customClass="HomeCollectionViewController" customModule="Kirokugram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Ev-y1-c6o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -599,7 +566,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" id="XLk-Po-6k7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Md-k3-jUx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1710.144927536232" y="683.70535714285711"/>
         </scene>
@@ -768,12 +734,54 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="46o-Jy-D6f" kind="relationship" relationship="rootViewController" id="w6H-W4-aFy"/>
+                        <segue destination="ULU-S7-icB" kind="presentation" modalPresentationStyle="fullScreen" id="FqO-SM-uMy"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xG0-oP-w1o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2590" y="1411"/>
+        </scene>
+        <!--Category Table View Controller-->
+        <scene sceneID="ngM-aQ-Ni4">
+            <objects>
+                <tableViewController id="ULU-S7-icB" customClass="CategoryTableViewController" customModule="Kirokugram" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xG8-Fz-8Ud">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="Mjo-rD-lK7">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <items>
+                                <navigationItem title="カテゴリ一覧" id="YTq-Dq-o9M">
+                                    <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" id="9Mf-wR-vkl"/>
+                                    <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="izb-a1-Vfq">
+                                        <connections>
+                                            <segue destination="bwO-Cl-ipn" kind="show" id="M7k-ou-LVu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="672-71-rtw">
+                                <rect key="frame" x="0.0" y="72" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="672-71-rtw" id="cuu-29-zZL">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ULU-S7-icB" id="ovg-w0-bde"/>
+                            <outlet property="delegate" destination="ULU-S7-icB" id="VFP-gk-6GI"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfy-uy-qOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2582" y="2131"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OWY-8d-Hb2">
